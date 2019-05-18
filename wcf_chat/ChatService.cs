@@ -41,7 +41,7 @@ namespace wcf_chat
         {
             foreach (var item in users)
             {
-                String answer = "[" + DateTime.Now.ToShortTimeString() + "]";
+                String answer = "[" + DateTime.Now.ToShortTimeString() + "] ";
 
                 var user = users.FirstOrDefault(i => i.ID == id);
                 if (user != null)
